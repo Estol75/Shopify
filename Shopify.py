@@ -78,7 +78,7 @@ print(cost)
 email = os.environ.get('EMAIL')
 passw = os.environ.get('PASS')
 
-s=Service(ChromeDriverManager().install())
+# s=Service(ChromeDriverManager().install())
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
