@@ -7,15 +7,10 @@ from aiohttp import request
 import time
 import asyncio
 import json
-import urllib, json
 from datetime import date
-from random import choice
 import requests
 from bs4 import BeautifulSoup
 import re
-import random
-from random import choice
-import fake_useragent
 import pymongo
 from datetime import datetime
 from webdriver_manager.chrome import ChromeDriverManager
@@ -23,11 +18,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-import fake_useragent
 from time import sleep
 import urllib.request
 import requests
-from PIL import Image
 from pymongo import MongoClient
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
