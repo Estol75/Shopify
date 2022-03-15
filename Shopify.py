@@ -102,7 +102,9 @@ sleep(1)
 sleep(7)
 
 driver.add_cookie(os.environ.get("Cookie")
-
+driver.get("https://calibarpc.myshopify.com/admin/products/6700822396985")
+                  
+                  
 inputElements = driver.find_element_by_name("price")
 inputElements.send_keys(Keys.CONTROL + "a")
 inputElements.send_keys(Keys.DELETE)
