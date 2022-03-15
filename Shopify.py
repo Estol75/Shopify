@@ -90,16 +90,18 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), o
 
 driver.get("https://calibarpc.myshopify.com/admin/products/6700822396985")
 sleep(1)
-inputElement = driver.find_element_by_id("account_email")
-inputElement.send_keys(email)
-sleep(2)
-driver.find_element_by_name("commit").click()
+# inputElement = driver.find_element_by_id("account_email")
+# inputElement.send_keys(email)
+# sleep(2)
+# driver.find_element_by_name("commit").click()
 
-sleep(2)
-inputElements = driver.find_element_by_id("account_password")
-inputElements.send_keys(passw)
-driver.find_element_by_name("commit").click()
+# sleep(2)
+# inputElements = driver.find_element_by_id("account_password")
+# inputElements.send_keys(passw)
+# driver.find_element_by_name("commit").click()
 sleep(7)
+
+driver.add_cookie(os.environ.get("Cookie")
 
 inputElements = driver.find_element_by_name("price")
 inputElements.send_keys(Keys.CONTROL + "a")
