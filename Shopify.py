@@ -101,7 +101,7 @@ sleep(1)
 # driver.find_element_by_name("commit").click()
 sleep(7)
 
-driver.add_cookie(os.environ.get("Cookie")
+driver.add_cookie(os.environ.get("Cookie"))
 driver.get("https://calibarpc.myshopify.com/admin/products/6700822396985")
                   
                   
